@@ -1,28 +1,79 @@
-<!DECTYPE html>
+<!DOCTYPE html>
 
 <html>
 
 	<head>
 		<meta charset="UTF-8" />
 		<title>Batty's Coffee Stand</title>
+
+		<!-- CSSの読み込み -->
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 
 	<body>
-		<hearder>
+		<header>
 			<div class="container">
-				<div class=headerr-title">
+				<div class="header-title">
 					<h1 class="logo">Batty's Coffee stand</h1>
-					<p class="title-text">あなたに最高のコーヒーを提供します。</p>
+					<p class="title-text">あなたに最高のコーヒーを提供します</p>
 				</div>
 
-				<ul class="header-navigation">
-					<li><a hredf="#">Home</a></li>
+				<!-- リンク -->
+				<ul class="header-navigation clearfix">
+					<li><a href="#">Home</a></li>
 					<li><a href="#">About</a></li>
 					<li><a href="#">Menu</a></li>
-					<li><a href="#">Contacl</a></li>
+					<li><a href="#">Contact</a></li>
 				</ul>
 			</div>
 		</hearder>
+
+		<div class="container clearfix">
+			<main>
+				<!-- 情報 -->
+				<div class="card-contents">
+					<h2 class="card-title">Information</h2>
+
+					<ul class="information-list">
+						<li>2017/05/01 2号店がドイツにオープンしました。</li>
+						<li>2017/04/01 春メニュー提供開始しました。</li>
+						<li>2017/01/01 Batty's Cofee Standオープンしました。</li>
+					</ul>
+				</div>
+
+				<!-- スタッフ一覧 -->
+				<div class="card-contents">
+					<h2 class="card-title">Staff</h2>
+
+					<div class="staff-list clearfix">
+						<div class="staff">
+							<img src="img/staff_01.png" class="staff-image">
+							<p class="staff-name">Batty Obata</p>
+						</div>
+
+						<div class="staff">
+							<img src="img/staff_02.png" class="staff-image">
+							<p class="staff-name">Infinity DOI</p>
+						</div>
+
+						<div class="staff">
+							<img src="img/staff_03.png" class="staff-image">
+							<p class="staff-name">Moro Masa</p>
+						</div>
+					</div>
+				</div>
+			</main>
+
+			<aside>
+				<!-- 住所 -->
+				<div class="card-contents">
+					<h2 class="card-title">Acess</h2>
+
+					<p>東京都渋谷円山町28-3<br>いちご渋谷道玄坂ビル5F</p>
+					<p>渋谷駅より徒歩7分</p>
+				</div>
+			</aside>
+		</div>
 
 		<footer>
 			<small class="copylight">@ 2021 Batty's Coffee Stand</small>
